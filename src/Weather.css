@@ -1,0 +1,127 @@
+.Weather h1 {
+  color: #025565;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  color: #025565;
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.Weather {
+  padding: 20px;
+  border: 1px solid #007188;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .enter-city-form {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+}
+
+.Weather .search-button {
+  color: #fff;
+  background: #007188;
+  border-color: #007188;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Weather .current-button {
+  color: #fff;
+  background: #1ea2da;
+  border-color: #1ea2da;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Weather .search-button:hover {
+  color: #007188;
+  background-color: #fff;
+  border-color: #007188;
+  transition: all 200ms ease-in-out;
+}
+
+.Weather .current-button:hover {
+  color: #1ea2da;
+  background-color: #fff;
+  border-color: #1ea2da;
+  transition: all 200ms ease-in-out;
+}
+
+.Weather .sky {
+  text-transform: capitalize;
+}
+
+.Weather .description {
+  margin-top: 19px;
+}
+
+.Weather .weather-temperature {
+  color: #025565;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -30px;
+}
+
+.Weather .weather-temperature .active {
+  color: #025565;
+  cursor: default;
+  text-decoration: none;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #025565;
+  opacity: 0.8;
+}
+
+.Weather .weather-forecast-date {
+  font-size: 16px;
+}
+
+.Weather .weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.Weather .weather-forecast-temperatures-min {
+  opacity: 0.8;
+}
+
+.Weather .git-link {
+  text-decoration: none;
+}
+
+.Weather .author {
+  color: #025565;
+}
